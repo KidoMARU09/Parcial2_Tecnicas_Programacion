@@ -24,8 +24,14 @@ public class Reserva {
         informacionPasajero.add(edad);
         informacionPasajero.add(preferencia);
     }
-    public void realizarReserva(String numeroVuelo, String origen, String destino, int capacidadMaxima, int fecha, String horaSalida){
+    public Vuelo buscarvuelo(String numeroVuelo){
+        System.out.println("Vuelos disponibles:");
+        System.out.println("vuelo:");
+        return null;
 
     }
-
+    public Pasajero informacionPsajero  (){
+        System.out.println("Información del pasajero:");
+        return null;
+    }
 }

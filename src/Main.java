@@ -13,8 +13,10 @@ public class Main {
                 numeroVuelo.getNumeroVuelo(numeroVuelo);
                 case 2:
                 Reserva fechareservaPasajero = new Reserva();
+                reservaVueloPasajero.informacionPsajero();
             case 3:
                 Pasajero informacionPasajero = new Pasajero("Carlos", 1321,27,"Silla al lado de la ventana.");
+                informacionPasajero.getPreferenciasPasajero();
         }
     }
 }
